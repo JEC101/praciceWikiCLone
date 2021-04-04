@@ -3,23 +3,109 @@
     padding: 0;
     font-size: 62.5%;
 }
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 
 header {
-    height: 32px;
+    height: 5rem;
+    display: grid;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 8rem;
 }
-header ul {
+header .title {
     display: flex;
+    height: 3rem;
+    width: 17.6rem;   
+}
+header .sub-title {
+    display: flex;
+    justify-self: center;
+    font-size: 1.5rem;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'serif';
+    margin-top: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+main .languages {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50rem;
+    height: 30rem;
+}
+ul {
     list-style: none;
 }
-header ul .w-image {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Wikipedia%27s_W.svg/800px-Wikipedia%27s_W.svg.png");
-    width: 30px;
+main .languages .languages-round .blue {
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', 'Roboto' , 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    color: rgb(51, 102, 204);
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
 }
-header ul .title {
-    font-size: 3.2rem;
-    font-family: 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
+main .languages .languages-round a {
+    color: rgb(84, 89, 93);
+    font-family: 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 1.3rem;
+
 }
-header ul .a-final {
-    font-size: 3.5rem;
-    font-family: 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
+main .languages .languages-round #english {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+}
+main .languages .languages-round #english-articles {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 7.2rem;
+}
+main .languages .languages-round #chinese {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+}
+main .languages .languages-round #chinese-articles {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 2.5rem;
+}
+main .languages .languages-round #picc {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+main .languages .languages-round #picc-articles {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+main .languages .languages-round #italian {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+}
+main .languages .languages-round #italian-articles {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 2.5rem;
+}
+main .languages .languages-round #portugues {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+}
+main .languages .languages-round #portugues-articles {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 7.2rem;
 }

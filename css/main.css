@@ -191,7 +191,7 @@ main .languagges--list:hover {
     border-radius: 2px;
 }
 main .search-icon {
-    background-image: url('./deer.png');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;

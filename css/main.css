@@ -14,7 +14,7 @@ header {
     grid-row: 1fr 1fr;
     justify-content: center;
     margin-bottom: 0.5rem;
-    margin-top: 8rem;
+    margin-top: 6.5rem;
 }
 header .title {
     display: flex;
@@ -30,15 +30,13 @@ header .sub-title {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
+    
 }
 main .languages {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png");
     background-repeat: no-repeat;
     background-position: center;
-    width: 50rem;
     height: 30rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,52 +62,52 @@ main .languages .languages-round a {
 main .languages .languages-round #english {
     display: flex;
     margin-top: 0.5rem;
-    margin-left: 10rem;
+    margin-left: calc(100% - 150px);
 }
 main .languages .languages-round #english-articles {
     display: flex;
     margin-top: 0.3rem;
-    margin-left: 7.2rem;
+    margin-left: calc(100% - 180px);
 }
 main .languages .languages-round #japanese {
     display: flex;
     margin-top: 2.5rem;
-    margin-left: 5rem;
+    margin-left: calc(100% - 200px);
 }
 main .languages .languages-round #japanese-articles {
     display: flex;
     margin-top: 0.3rem;
-    margin-left: 2.5rem;
+    margin-left: calc(100% - 225px);
 }
 main .languages .languages-round #picc {
     display: flex;
     margin-top: 2.5rem;
-    margin-left: 3rem;
+    margin-left: calc(100% - 220px);
 }
 main .languages .languages-round #picc-articles {
     display: flex;
     margin-top: 0.3rem;
-    margin-left: 0.5rem;
+    margin-left: calc(100% - 240px);
 }
 main .languages .languages-round #italian {
     display: flex;
     margin-top: 2.5rem;
-    margin-left: 5rem;
+    margin-left: calc(100% - 210px);
 }
 main .languages .languages-round #italian-articles {
     display: flex;
     margin-top: 0.3rem;
-    margin-left: 2.5rem;
+    margin-left: calc(100% - 230px);
 }
 main .languages .languages-round #portugues {
     display: flex;
     margin-top: 2.5rem;
-    margin-left: 10rem;
+    margin-left: calc(100% - 165px);
 }
 main .languages .languages-round #portugues-articles {
     display: flex;
     margin-top: 0.3rem;
-    margin-left: 7.2rem;
+    margin-left: calc(100% - 185px);
 }
 main .languages .languages-round #spanish {
     display: flex;
@@ -160,4 +158,24 @@ main .languages .languages-round #polish-articles {
     display: flex;
     margin-top: 0.3rem;
     margin-left: 7.5rem;
+}
+
+main .search-bar {
+    width: 450px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+main .main-input-container {
+    width: 350px;
+    height: 20px;
+    margin: 2.5px 0;
+    margin-left: 15px;
+    border: none;
+}
+main .search-bar:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
 }
